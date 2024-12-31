@@ -18,7 +18,7 @@ Widget widget() {
 //            color: Colors.red,
 //          ),
 //          weekDays: null, /// for pass null when you do not want to render weekDays
-//          headerText: Container( /// Example for rendering custom header
+//          headerText: Container( /// flutter_calendar_carousel for rendering custom header
 //            child: Text('Custom Header'),
 //          ),
     ),

@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         // counter didn't reset back to zero; the application is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: new MyHomePage(title: 'Flutter Calendar Carousel Example'),
+      home: new MyHomePage(title: 'Flutter Calendar Carousel flutter_calendar_carousel'),
     );
   }
 }
@@ -134,7 +134,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    /// Example with custom icon
+    /// flutter_calendar_carousel with custom icon
     final _calendarCarousel = CalendarCarousel<Event>(
       onDayPressed: (date, events) {
         this.setState(() => _currentDate = date);
@@ -174,7 +174,7 @@ class _MyHomePageState extends State<MyHomePage> {
 //          markedDateIconOffset: 3,
     );
 
-    /// Example Calendar Carousel without header and custom prev & next button
+    /// flutter_calendar_carousel Calendar Carousel without header and custom prev & next button
     final _calendarCarouselNoHeader = CalendarCarousel<Event>(
       todayBorderColor: Colors.green,
       onDayPressed: (date, events) {

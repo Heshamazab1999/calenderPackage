@@ -25,7 +25,7 @@ apply plugin: 'com.android.application'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
-    namespace ="com.dooboolab.example"
+    namespace ="com.dooboolab.flutter_calendar_carousel"
     compileSdkVersion 34
 
     lintOptions {
@@ -34,7 +34,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.dooboolab.example"
+        applicationId "com.dooboolab.flutter_calendar_carousel"
         minSdkVersion 21
         targetSdkVersion 34
         versionCode flutterVersionCode.toInteger()
